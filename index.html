@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aurum Interiors - Interior design studio crafting warm, personal and functional spaces.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <title>Aurum Interiors | Interior Design Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR (rendered from config.json) ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" id="navLogo" aria-label="Home">
+        <span class="logo-mark">A</span>
+        <span class="logo-text" id="navLogoText"></span>
+      </a>
+      <ul class="nav-links" id="navLinks"></ul>
+      <div class="nav-actions">
+        <a href="#enquiry" class="btn btn-accent btn-sm nav-cta" id="navCta"></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" id="heroImage"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow" id="heroEyebrow"></p>
+        <h1 class="hero-title" id="heroTitle"></h1>
+        <p class="hero-subtitle" id="heroSubtitle"></p>
+        <div class="hero-ctas" id="heroCtas"></div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <i class="hero-scroll-line"></i>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media">
+            <figure class="about-img about-img-main" id="aboutImage1"></figure>
+            <figure class="about-img about-img-small" id="aboutImage2"></figure>
+            <div class="about-badge" id="aboutBadge"></div>
+          </div>
+          <div class="about-body">
+            <p class="eyebrow" id="aboutEyebrow"></p>
+            <h2 class="section-title" id="aboutHeading"></h2>
+            <p class="about-text" id="aboutText1"></p>
+            <p class="about-text muted" id="aboutText2"></p>
+            <div class="about-features" id="aboutFeatures"></div>
+          </div>
+        </div>
+        <div class="stats-row" id="statsRow"></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" id="servicesEyebrow"></p>
+          <h2 class="section-title" id="servicesHeading"></h2>
+          <p class="section-sub" id="servicesSubheading"></p>
+        </div>
+        <div class="services-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" id="portfolioEyebrow"></p>
+          <h2 class="section-title" id="portfolioHeading"></h2>
+          <p class="section-sub" id="portfolioSubheading"></p>
+        </div>
+        <div class="filter-bar" id="filterBar"></div>
+        <div class="portfolio-grid" id="portfolioGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" id="testimonialsEyebrow"></p>
+          <h2 class="section-title" id="testimonialsHeading"></h2>
+        </div>
+        <div class="slider" id="testimonialSlider">
+          <div class="slider-track" id="testimonialTrack"></div>
+          <div class="slider-nav">
+            <button class="slider-arrow" id="sliderPrev" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button class="slider-arrow" id="sliderNext" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ENQUIRY ============ -->
+    <section class="section enquiry" id="enquiry">
+      <div class="container">
+        <div class="enquiry-card">
+          <div class="enquiry-media" id="enquiryMedia"></div>
+          <div class="enquiry-form-wrap">
+            <p class="eyebrow" id="enquiryEyebrow"></p>
+            <h2 class="section-title" id="enquiryHeading"></h2>
+            <p class="section-sub" id="enquirySubheading"></p>
+            <form class="enquiry-form" id="enquiryForm" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="enqName">Full Name *</label>
+                  <input type="text" id="enqName" name="name" placeholder="Your name" required>
+                </div>
+                <div class="field">
+                  <label for="enqPhone">Phone *</label>
+                  <input type="tel" id="enqPhone" name="phone" placeholder="+91 00000 00000" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="enqEmail">Email</label>
+                  <input type="email" id="enqEmail" name="email" placeholder="you@example.com">
+                </div>
+                <div class="field">
+                  <label for="enqService">Service Needed *</label>
+                  <select id="enqService" name="service" required></select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="enqBudget">Budget Range</label>
+                  <select id="enqBudget" name="budget"></select>
+                </div>
+                <div class="field">
+                  <label for="enqLocation">City / Location</label>
+                  <input type="text" id="enqLocation" name="location" placeholder="e.g. Pune">
+                </div>
+              </div>
+              <div class="field">
+                <label for="enqMessage">Tell us about your project</label>
+                <textarea id="enqMessage" name="message" rows="4" placeholder="Room sizes, style preferences, timeline..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-accent btn-lg" id="enquirySubmit"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" id="contactEyebrow"></p>
+          <h2 class="section-title" id="contactHeading"></h2>
+          <p class="section-sub" id="contactSubheading"></p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-cards" id="contactCards"></div>
+          <div class="map-wrap">
+            <iframe id="mapFrame" title="Studio location on Google Maps" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="btn btn-ghost btn-sm map-directions" id="mapDirections" target="_blank" rel="noopener"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo footer-logo">
+            <span class="logo-mark">A</span>
+            <span class="logo-text" id="footerLogoText"></span>
+          </a>
+          <p class="footer-about" id="footerAbout"></p>
+          <div class="social-row" id="socialRow"></div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links" id="footerQuickLinks"></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <ul class="footer-contact" id="footerContact"></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p id="footerCopyright"></p>
+        <button class="back-to-top" id="backToTop"></button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

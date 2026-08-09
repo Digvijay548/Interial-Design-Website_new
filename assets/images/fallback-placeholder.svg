@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f2ecdf"/>
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#a87f4a" stroke-width="3" stroke-dasharray="10 8"/>
+  <circle cx="400" cy="420" r="70" fill="#a87f4a" opacity="0.9"/>
+  <text x="400" y="452" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="400" y="580" font-family="Georgia, serif" font-size="54" letter-spacing="8" fill="#221d15" text-anchor="middle">AURUM</text>
+  <text x="400" y="640" font-family="Arial, sans-serif" font-size="28" letter-spacing="18" fill="#7a7261" text-anchor="middle">INTERIORS</text>
+</svg>

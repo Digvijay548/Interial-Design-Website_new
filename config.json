@@ -1,0 +1,179 @@
+{
+  "site": {
+    "name": "Aurum Interiors",
+    "logoLine1": "AURUM",
+    "logoLine2": "INTERIORS",
+    "tagline": "Designing spaces that feel like home."
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Portfolio", "href": "#portfolio" },
+      { "label": "Testimonials", "href": "#testimonials" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaButton": { "label": "Enquire Now", "href": "#enquiry" }
+  },
+
+  "hero": {
+    "eyebrow": "Interior Design Studio",
+    "titleLine1": "We Design Spaces",
+    "titleLine2": "That Tell Your Story",
+    "subtitle": "Bespoke interiors crafted with soul — from concept sketches to the final cushion, we take care of everything in between.",
+    "primaryCta": { "label": "Book a Consultation", "href": "#enquiry" },
+    "secondaryCta": { "label": "View Portfolio", "href": "#portfolio" },
+    "image": "assets/images/hero-living-room.jpg"
+  },
+
+  "about": {
+    "eyebrow": "About the Studio",
+    "heading": "Where Vision Meets Craftsmanship",
+    "text1": "Aurum Interiors is a full-service design studio founded on a simple belief: great interiors should feel personal. We blend contemporary aesthetics with timeless warmth, tailoring every project to the way you actually live.",
+    "text2": "From 1BHK apartments to sprawling villas, our team handles design, execution and styling end-to-end — so you never have to chase a contractor again.",
+    "image1": "assets/images/about-interior-studio.jpg",
+    "image2": "assets/images/about-elegant-bedroom.jpg",
+    "image1Caption": "Our design studio",
+    "stats": [
+      { "value": "12+", "label": "Years of Experience" },
+      { "value": "450+", "label": "Projects Delivered" },
+      { "value": "98%", "label": "Client Satisfaction" },
+      { "value": "25", "label": "Design Awards" }
+    ]
+  },
+
+  "services": {
+    "eyebrow": "What We Do",
+    "heading": "Our Services",
+    "subheading": "One studio, every skill you need to build a beautiful home.",
+    "items": [
+      {
+        "icon": "home",
+        "title": "Residential Interiors",
+        "text": "Complete home interiors — living rooms, bedrooms and beyond — designed around your daily rituals.",
+        "image": "assets/images/service-residential.jpg"
+      },
+      {
+        "icon": "kitchen",
+        "title": "Modular Kitchens",
+        "text": "Ergonomic, handle-free modular kitchens with premium finishes and smart storage in every inch.",
+        "image": "assets/images/service-modular-kitchen.jpg"
+      },
+      {
+        "icon": "office",
+        "title": "Office & Commercial",
+        "text": "Workspaces and retail interiors that boost productivity and reflect your brand identity.",
+        "image": "assets/images/service-commercial-office.jpg"
+      },
+      {
+        "icon": "lamp",
+        "title": "Lighting Design",
+        "text": "Layered lighting plans — ambient, task and accent — that transform how your space feels after dark.",
+        "image": "assets/images/service-lighting-design.jpg"
+      },
+      {
+        "icon": "sofa",
+        "title": "Custom Furniture",
+        "text": "Bespoke sofas, wardrobes and statement pieces made to order by our in-house craftsmen.",
+        "image": "assets/images/service-custom-furniture.jpg"
+      },
+      {
+        "icon": "palette",
+        "title": "Space Styling",
+        "text": "Accessorising, art placement and final styling that gives your space that lived-in magazine look.",
+        "image": "assets/images/service-space-styling.jpg"
+      }
+    ]
+  },
+
+  "portfolio": {
+    "eyebrow": "Recent Work",
+    "heading": "Our Portfolio",
+    "subheading": "A glimpse of the spaces our clients now call home.",
+    "items": [
+      { "title": "Velvet Living Room", "category": "Living Room", "image": "assets/images/portfolio-living-room-1.jpg" },
+      { "title": "Warm Minimal Lounge", "category": "Living Room", "image": "assets/images/portfolio-living-room-2.jpg" },
+      { "title": "Serene Master Suite", "category": "Bedroom", "image": "assets/images/portfolio-bedroom-1.jpg" },
+      { "title": "Cosy Guest Bedroom", "category": "Bedroom", "image": "assets/images/portfolio-bedroom-2.jpg" },
+      { "title": "Charcoal Modular Kitchen", "category": "Kitchen", "image": "assets/images/portfolio-kitchen-1.jpg" },
+      { "title": "Scandinavian Dining Nook", "category": "Dining", "image": "assets/images/portfolio-dining-1.jpg" },
+      { "title": "Founder's Corner Office", "category": "Office", "image": "assets/images/portfolio-office-1.jpg" },
+      { "title": "Spa-Inspired Bath", "category": "Bathroom", "image": "assets/images/portfolio-bathroom-1.jpg" },
+      { "title": "Marble Powder Room", "category": "Bathroom", "image": "assets/images/portfolio-bathroom-2.jpg" }
+    ]
+  },
+
+  "testimonials": {
+    "eyebrow": "Client Love",
+    "heading": "What Our Clients Say",
+    "items": [
+      {
+        "name": "Priya & Rohan Mehta",
+        "role": "3BHK Apartment, Pune",
+        "quote": "Aurum turned our empty shell into a home we never want to leave. Every corner feels intentional. They delivered on time and on budget."
+      },
+      {
+        "name": "Anjali Sharma",
+        "role": "Villa Renovation, Mumbai",
+        "quote": "The team understood our style better than we did. The lighting and custom furniture completely transformed our living space."
+      },
+      {
+        "name": "Karthik Rao",
+        "role": "Office Interiors, Bengaluru",
+        "quote": "Our new office gets compliments every single day. Professional, punctual and genuinely creative — highly recommended."
+      }
+    ]
+  },
+
+  "enquiry": {
+    "eyebrow": "Get in Touch",
+    "heading": "Book Your Free Consultation",
+    "subheading": "Tell us a little about your project and we'll get back to you within 24 hours.",
+    "services": [
+      "Full Home Interior",
+      "Modular Kitchen",
+      "Living Room",
+      "Bedroom",
+      "Office / Commercial",
+      "Lighting Design",
+      "Custom Furniture",
+      "Other"
+    ],
+    "budgets": ["Under ₹5 Lakh", "₹5 – ₹10 Lakh", "₹10 – ₹25 Lakh", "₹25 Lakh+"],
+    "recipientEmail": "hello@auruminteriors.com",
+    "submitText": "Send Enquiry",
+    "successMessage": "Thank you! Your enquiry has been noted. We will reach out to you within 24 hours.",
+    "image": "assets/images/enquiry-luxury-home.jpg"
+  },
+
+  "contact": {
+    "eyebrow": "Contact Us",
+    "heading": "Visit Our Studio",
+    "subheading": "We'd love to hear about your project. Reach out through any of the channels below.",
+    "address": {
+      "label": "Studio Address",
+      "value": "2nd Floor, Design House, Baner Road, Pune, Maharashtra 411045"
+    },
+    "phone": { "label": "Call Us", "value": "+91 98765 43210" },
+    "email": { "label": "Email Us", "value": "hello@auruminteriors.com" },
+    "timing": { "label": "Studio Hours", "value": "Mon – Sat, 10:00 AM – 7:00 PM" },
+    "mapEmbedUrl": "https://www.google.com/maps?q=Baner%20Road%2C%20Pune%2C%20Maharashtra&z=14&output=embed",
+    "mapLink": "https://www.google.com/maps?q=Baner%20Road%2C%20Pune%2C%20Maharashtra"
+  },
+
+  "social": [
+    { "name": "Instagram", "url": "https://instagram.com/", "icon": "instagram" },
+    { "name": "Facebook", "url": "https://facebook.com/", "icon": "facebook" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/", "icon": "linkedin" },
+    { "name": "WhatsApp", "url": "https://wa.me/919876543210", "icon": "whatsapp" },
+    { "name": "YouTube", "url": "https://youtube.com/", "icon": "youtube" }
+  ],
+
+  "footer": {
+    "about": "A full-service interior design studio crafting warm, personal and functional spaces for homes and offices across India.",
+    "copyrightName": "Aurum Interiors",
+    "backToTop": "Back to top"
+  }
+}
