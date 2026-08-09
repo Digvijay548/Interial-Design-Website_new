@@ -1,0 +1,13 @@
+# Netlify deployment settings
+# This site is pure static HTML/CSS/JS - no build step needed.
+# All content is driven by config.json at runtime.
+
+[build]
+  publish = "."
+  command = ""
+
+# Serve index.html for unknown paths (deep links like /#enquiry)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
