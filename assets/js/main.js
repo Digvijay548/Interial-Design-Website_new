@@ -37,7 +37,7 @@
 
   /* ---------- Fallback config (used if config.json cannot be fetched, e.g. opening from file://) ---------- */
   var DEFAULT_CONFIG = {
-    site: { name: 'Aurum Interiors', logoLine1: 'AURUM', logoLine2: 'INTERIORS' },
+    site: { name: 'Demo Interiors By Digvijay', logoLine1: 'DEMO', logoLine2: 'INTERIORS' },
     nav: {
       links: [
         { label: 'Home', href: '#home' }, { label: 'About', href: '#about' },
@@ -56,7 +56,7 @@
     },
     about: {
       eyebrow: 'About the Studio', heading: 'Where Vision Meets Craftsmanship',
-      text1: 'Aurum Interiors is a full-service design studio founded on a simple belief: great interiors should feel personal.',
+      text1: 'Demo Interiors By Digvijay is a full-service design studio founded on a simple belief: great interiors should feel personal.',
       text2: 'From 1BHK apartments to sprawling villas, our team handles design, execution and styling end-to-end.',
       image1: 'assets/images/about-interior-studio.jpg', image2: 'assets/images/about-elegant-bedroom.jpg',
       image1Caption: 'Our design studio',
@@ -87,7 +87,7 @@
     testimonials: {
       eyebrow: 'Client Love', heading: 'What Our Clients Say',
       items: [
-        { name: 'Priya & Rohan Mehta', role: '3BHK Apartment, Pune', quote: 'Aurum turned our empty shell into a home we never want to leave.' }
+        { name: 'Priya & Rohan Mehta', role: '3BHK Apartment, Pune', quote: 'Digvijay turned our empty shell into a home we never want to leave.' }
       ]
     },
     enquiry: {
@@ -95,24 +95,24 @@
       subheading: 'Tell us a little about your project.',
       services: ['Full Home Interior', 'Modular Kitchen', 'Living Room', 'Other'],
       budgets: ['Under ₹5 Lakh', '₹5 – ₹10 Lakh', '₹10 – ₹25 Lakh', '₹25 Lakh+'],
-      recipientEmail: 'hello@auruminteriors.com', submitText: 'Send Enquiry',
+      recipientEmail: 'Digvijaypatil548@gmail.com', submitText: 'Send Enquiry',
       successMessage: 'Thank you! Your enquiry has been noted.',
       image: 'assets/images/enquiry-luxury-home.jpg'
     },
     contact: {
       eyebrow: 'Contact Us', heading: 'Visit Our Studio',
       address: { label: 'Studio Address', value: '2nd Floor, Design House, Baner Road, Pune, Maharashtra 411045' },
-      phone: { label: 'Call Us', value: '+91 98765 43210' },
-      email: { label: 'Email Us', value: 'hello@auruminteriors.com' },
+      phone: { label: 'Call Us', value: '+917770004641' },
+      email: { label: 'Email Us', value: 'Digvijaypatil548@gmail.com' },
       timing: { label: 'Studio Hours', value: 'Mon – Sat, 10:00 AM – 7:00 PM' },
       mapEmbedUrl: 'https://www.google.com/maps?q=Baner%20Road%2C%20Pune%2C%20Maharashtra&z=14&output=embed',
       mapLink: 'https://www.google.com/maps?q=Baner%20Road%2C%20Pune%2C%20Maharashtra'
     },
     social: [
       { name: 'Instagram', url: 'https://instagram.com/', icon: 'instagram' },
-      { name: 'WhatsApp', url: 'https://wa.me/919876543210', icon: 'whatsapp' }
+      { name: 'WhatsApp', url: 'https://wa.me/917770004641', icon: 'whatsapp' }
     ],
-    footer: { about: 'A full-service interior design studio.', copyrightName: 'Aurum Interiors', backToTop: 'Back to top' }
+    footer: { about: 'A full-service interior design studio.', copyrightName: 'Demo Interiors By Digvijay', backToTop: 'Back to top' }
   };
 
   /* ---------- Load config ---------- */

@@ -1,4 +1,4 @@
-# Deploying "Aurum Interiors" on Netlify
+# Deploying "Demo Interiors By Digvijay" on Netlify
 
 This site is **pure static** (HTML + CSS + JS + `config.json`). It needs **no build step**.
 You can deploy it two ways — both take about 2 minutes. Option 2 is recommended if you
